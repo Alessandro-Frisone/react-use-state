@@ -9,9 +9,9 @@ export default function Language({ title, description }) {
 
   return (
     <div className="language">
-      <div className="language-title">
+      <div className="language-title" style={{backgroundColor: isOpen ? "#ecc53e" : "white"}}>
         <h1><strong>{title}</strong></h1>
-        <button className="btn" onClick={toggle}>
+        <button style={{backgroundColor: isOpen ? "#ecc53e" : "white"}} className="btn" onClick={toggle}>
           {isOpen ? "-" : "+"}
         </button>
       </div>
