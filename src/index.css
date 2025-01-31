@@ -3,7 +3,6 @@
 ------------------*/
 * {
   box-sizing: border-box;
-  margin: 0 auto;
   padding: 0;
 }
 
@@ -36,6 +35,7 @@ body{
 .languages-list{
   width: 500px;
   padding-top: 30px;
+  margin: 0 auto;
 }
 .language-title{
   background-color: #ecc53e;
