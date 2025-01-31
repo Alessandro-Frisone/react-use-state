@@ -10,7 +10,7 @@ export default function Language({ title, description }) {
   return (
     <div className="language">
       <div className="language-title">
-        <h1>{title}</h1>
+        <h1><strong>{title}</strong></h1>
         <button className="btn" onClick={toggle}>
           {isOpen ? "-" : "+"}
         </button>
