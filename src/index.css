@@ -1,0 +1,35 @@
+/*-----------------
+    RESET
+------------------*/
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/*-----------------
+    GENERAL
+------------------*/
+.container{
+  width: 60%;
+  margin: auto;
+}
+body{
+  background-color: #e4e4e4;
+}
+/*-----------------
+    MAIN
+------------------*/
+.languages-list{
+  width: 500px;
+}
+.language-title{
+  background-color: #ecc53e;
+  padding: 10px;
+}
+.language-content{
+  padding: 10px;
+}
+.language{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
