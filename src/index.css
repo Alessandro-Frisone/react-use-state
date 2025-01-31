@@ -17,15 +17,33 @@
 body{
   background-color: #e4e4e4;
 }
+
+/*-----------------
+    BUTTON
+------------------*/
+.btn{
+  border: none;
+  color: black;
+  font-size: 20px;
+  background-color: #ecc53e;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
 /*-----------------
     MAIN
 ------------------*/
 .languages-list{
   width: 500px;
+  padding-top: 100px;
 }
 .language-title{
   background-color: #ecc53e;
   padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 75%;
 }
 .language-content{
   padding: 10px;
